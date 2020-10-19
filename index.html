@@ -5,13 +5,20 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Meme Generator</title>
         <link href="https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Commissioner&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <label for="text-input">Digite o texto do meme:</label>
-        <input id="text-input" type="text" maxlength="60"><br>
-        <label for="meme-insert">Foto:</label>
-        <input type="file" name="" id="meme-insert">
+        <h1 class="header">Meme Generator</h1>
+        <div class="field">
+            <label for="text-input">Digite o texto do meme:</label>
+            <input id="text-input" type="text" maxlength="60"><br>
+        </div>
+        <div class="field">
+            <label for="meme-insert">Foto:</label>
+            <input type="file" name="" id="meme-insert">
+        </div>
 
         <div class="container" id="meme-image-container">
             <p class="meme-text" id="meme-text">Seu texto vai aqui...</p>
